@@ -5,3 +5,7 @@ MODDIR=${0%/*}
 
 # This script will be executed in late_start service mode
 # More info in the main Magisk thread
+resetprop --delete init.svc.magisk_pfs
+resetprop --delete init.svc.magisk_pfsd
+resetprop --delete init.svc.magisk_service
+resetprop --delete persist.magisk.hide

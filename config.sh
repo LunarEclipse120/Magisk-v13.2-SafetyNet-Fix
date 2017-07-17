@@ -25,11 +25,11 @@
 
 # This will be the folder name under /magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=template
+MODID=Magisk-v13.2-SafetyNet-Fix
 
 # Set to true if you need to enable Magic Mount
 # Most mods would like it to be enabled
-AUTOMOUNT=true
+AUTOMOUNT=false
 
 # Set to true if you need to load system.prop
 PROPFILE=false
@@ -38,7 +38,7 @@ PROPFILE=false
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=false
+LATESTARTSERVICE=true
 
 ##########################################################################################
 # Installation Message
@@ -47,9 +47,12 @@ LATESTARTSERVICE=false
 # Set what you want to show when installing your mod
 
 print_modname() {
-  ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
-  ui_print "*******************************"
+  ui_print "******************************"
+  ui_print "  Magisk v13.2 SafetyNet Fix  "
+  ui_print "  Module created by noahajac  "
+  ui_print "   Fix discovered by Tobi@s   "
+  ui_print "   Magisk made by topjohnwu   "
+  ui_print "******************************"
 }
 
 ##########################################################################################
