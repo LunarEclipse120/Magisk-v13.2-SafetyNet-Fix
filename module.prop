@@ -1,7 +1,7 @@
 id=Magisk-v13.2-SafetyNet-Fix
 name=Magisk v13.2 SafetyNet Fix
-version=v1.0
-versionCode=1.0
+version=v1.0.0
+versionCode=1.0.0
 author=noahajac
 description=Allows SafetyNet to pass in Magisk v13.2.
 template=4
